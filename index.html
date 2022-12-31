@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <title>
+            David Manga
+        </title>
+    </head>
+    <body>
+        <div id="allcontent">
+            <div id="sidebody">
+                <div id="name">
+                    <p>DAVID MANGA MUYANZI</p>
+                </div>
+                <div onclick="openMenu()" id="menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div onclick="closeMenu()" id="scrollbutton">
+                    <i class="fa fa-close"></i>
+                </div>
+                <div id="realsidebar">
+                    <div class="sideinfo">
+                        <p>About Me</p>
+                    </div>
+                    <hr>
+                    <div class="sideinfo">
+                        <p>Marketable Skills</p>
+                    </div>
+                    <hr>
+                    <div class="sideinfo">
+                        <p>Hobbys</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div id="contentbody">
+                <div id="resume">
+                    <div id="title">
+                        <h2>Resume</h2>
+                    </div>
+                    <div id="profileimage">
+                        <img src="images/IMG_9033 (1) (1).jpg">
+                        <div id="names">
+                            <h2>David Manga,</h2>
+                            <p>Freelance Web developer,</p>
+                            <p>Nairobi,Kenya.</p>
+                        </div>
+                    </div>
+                    <div id="resumecontent">
+                        <div id="introinfo">
+                            <h2>Contacts</h2>
+                            <div id="socialcontacts">
+                                <p><a target="_blank" href="https://www.linkedin.com/in/david-manga-313419234/"><i class="fa fa-linkedin"></i></a></p>
+                                <p><a target="_blank" href="mailto:davemanga3@gmail.com"><i class="fa fa-envelope"></i></a></p>
+                            </div>
+                            <div id="cartegories">
+                                <div onclick="RenderLanguage()" id="dalanguages" class="section">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <div onclick="RenderProject()" id="daprojects" class="section">
+                                    <i class="fa fa-laptop"></i>
+                                </div>
+                            </div>
+                            <div id="renderspace">
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <p>&copy;DavidManga</p>
+            </footer>
+        </div>
+        <script type="text/babel" src="js/brain.js"></script>
+    </body>
+</html>
