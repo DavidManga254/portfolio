@@ -83,6 +83,20 @@ function Project(){
                 </div>
                 <div class="project">
                     <div class="projectimage">
+                        <img src="images/racoons.JPG"/>
+                    </div>
+                    <div class="projectdetails">
+                        <div class="projectname">
+                            <p>Overworld Clone</p>
+                        </div>
+                        <div class="view">
+                            <a target="_blank" href="davidmanga254.github.io/overworld"><button><i class="fa fa-external-link"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="projectimage">
                         <img src="images/grimmm.JPG"/>
                     </div>
                     <div class="projectdetails">
