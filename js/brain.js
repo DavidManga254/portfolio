@@ -90,7 +90,7 @@ function Project(){
                             <p>Overworld Clone</p>
                         </div>
                         <div class="view">
-                            <a target="_blank" href="davidmanga254.github.io/overworld"><button><i class="fa fa-external-link"></i></button></a>
+                            <a target="_blank" href="https://davidmanga254.github.io/overworld/"><button><i class="fa fa-external-link"></i></button></a>
                         </div>
                     </div>
                 </div>
